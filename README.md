@@ -45,20 +45,20 @@ Agent 从交互中积累经验时，有三个容易被忽视的风险：
 https://www.bilibili.com/video/BV176sW68ESB
 ## 源代码
 
-完整代码：[仓库根目录](./memory_harness)
+完整代码：[仓库根目录]((https://github.com/xiaotentendp/Agent-Memory-MVP)
 
 ## 文件结构
 
 | 文件 | 职责 |
 |---|---|
-| [`weights.py`](./memory_harness/weights.py) | 权重参数与档位映射 |
-| [`canon.py`](./memory_harness/canon.py) | 规范化序列化与哈希 |
-| [`taint.py`](./memory_harness/taint.py) | 硬/软污点判定 |
-| [`gateway.py`](./memory_harness/gateway.py) | 安全网关校验与归因 |
-| [`store.py`](./memory_harness/store.py) | 两层记忆库、哈希链、锚点校验 |
-| [`inject.py`](./memory_harness/inject.py) | 检索注入与互斥经验冲突解决 |
-| [`llm.py`](./memory_harness/llm.py) | 模型接入与思考过程提取 |
-| [`interactive_demo.py`](./memory_harness/interactive_demo.py) | 主交互界面 |
+| [`weights.py`](https://github.com/xiaotentendp/Agent-Memory-MVP/blob/main/weights.py) | 权重参数与档位映射 |
+| [`canon.py`](https://github.com/xiaotentendp/Agent-Memory-MVP/blob/main/canon.py) | 规范化序列化与哈希 |
+| [`taint.py`](https://github.com/xiaotentendp/Agent-Memory-MVP/blob/main/taint.py) | 硬/软污点判定 |
+| [`gateway.py`](https://github.com/xiaotentendp/Agent-Memory-MVP/blob/main/gateway.py) | 安全网关校验与归因 |
+| [`store.py`](https://github.com/xiaotentendp/Agent-Memory-MVP/blob/main/store.py) | 两层记忆库、哈希链、锚点校验 |
+| [`inject.py`](https://github.com/xiaotentendp/Agent-Memory-MVP/blob/main/inject.py) | 检索注入与互斥经验冲突解决 |
+| [`llm.py`](https://github.com/xiaotentendp/Agent-Memory-MVP/blob/main/llm.py) | 模型接入与思考过程提取 |
+| [`interactive_demo.py`](https://github.com/xiaotentendp/Agent-Memory-MVP/blob/main/interactive_demo.py) | 主交互界面 |
 
 ## 运行方式
 
