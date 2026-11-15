@@ -51,7 +51,7 @@ https://www.bilibili.com/video/BV176sW68ESB
 
 | 文件 | 职责 |
 |---|---|
-| [`weights.py`](https://github.com/xiaotentendp/Agent-Memory-MVP/blob/main/weights.py) | 权重参数与档位映射 |
+| [`weights.py`](https://github.com/xiaotentendp/Agent-Memory-MVP/memory_harness/weights.py) | 权重参数与档位映射 |
 | [`canon.py`](https://github.com/xiaotentendp/Agent-Memory-MVP/blob/main/canon.py) | 规范化序列化与哈希 |
 | [`taint.py`](https://github.com/xiaotentendp/Agent-Memory-MVP/blob/main/taint.py) | 硬/软污点判定 |
 | [`gateway.py`](https://github.com/xiaotentendp/Agent-Memory-MVP/blob/main/gateway.py) | 安全网关校验与归因 |
