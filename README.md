@@ -45,7 +45,7 @@ Agent 从交互中积累经验时，有三个容易被忽视的风险：
 https://www.bilibili.com/video/BV176sW68ESB
 ## 源代码
 
-完整代码：[仓库根目录]((https://github.com/xiaotentendp/Agent-Memory-MVP)
+完整代码：[仓库根目录](https://github.com/xiaotentendp/Agent-Memory-MVP)
 
 ## 文件结构
 
