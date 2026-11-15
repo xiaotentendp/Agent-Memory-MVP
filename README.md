@@ -43,6 +43,22 @@ Agent 从交互中积累经验时，有三个容易被忽视的风险：
 ## 演示视频
 
 https://www.bilibili.com/video/BV176sW68ESB
+## 源代码
+
+完整代码：[仓库根目录](./)
+
+## 文件结构
+
+| 文件 | 职责 |
+|---|---|
+| [`weights.py`](./weights.py) | 权重参数与档位映射 |
+| [`canon.py`](./canon.py) | 规范化序列化与哈希 |
+| [`taint.py`](./taint.py) | 硬/软污点判定 |
+| [`gateway.py`](./gateway.py) | 安全网关校验与归因 |
+| [`store.py`](./store.py) | 两层记忆库、哈希链、锚点校验 |
+| [`inject.py`](./inject.py) | 检索注入与互斥经验冲突解决 |
+| [`llm.py`](./llm.py) | 模型接入与思考过程提取 |
+| [`interactive_demo.py`](./interactive_demo.py) | 主交互界面 |
 
 ## 运行方式
 
